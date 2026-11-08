@@ -1,8 +1,8 @@
 # MSA-FM
 
-Official repository of **MSA-FM** (Journal of Electronic Imaging).
+Official repository of **MSA-FM**: *Cross-Modal Person Re-Identification Via Multi-Scale Semantic Alignment and Fuzzy Matching* (Journal of Electronic Imaging).
 
-Code for our paper **MSA-FM** on visible–infrared person re-identification (VI-ReID).
+Code for visible–infrared person re-identification (VI-ReID).
 
 ## Requirements
 
@@ -64,5 +64,7 @@ python test.py --cfg configs/RegDB.yml --checkpoint checkpoints/regdb/model.pth
 ```
 
 Without `--checkpoint` the script exits with a `FileNotFoundError`.
+
+## Acknowledgement
 
 This code is developed upon the official SAAI implementation (ICCV 2023).
