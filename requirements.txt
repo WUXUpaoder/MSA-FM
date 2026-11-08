@@ -1,0 +1,16 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.1
+numpy>=1.24.2
+scipy
+scikit-learn
+yacs
+PyYAML
+pytorch-ignite
+
+# Image I/O and visualization
+# (Pillow for dataset loading; matplotlib and opencv-python are imported by
+#  models/rank_10_show.py, which utils/eval_sysu.py imports at module level)
+Pillow
+matplotlib
+opencv-python
